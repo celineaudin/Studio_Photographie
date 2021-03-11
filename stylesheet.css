@@ -1,0 +1,196 @@
+@media screen and (max-width: 600px) {
+  .navBar nav li {
+    float: none;
+    width: 100%;
+  }
+
+  header {
+    display: none;
+    width: 100%;
+  }
+
+  footer ul .logo {
+    float: none;
+    width: 100%;
+  }
+
+  article {
+    flex-direction: column;
+  }
+
+  form {
+    float: none;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .navBar nav li {
+    float: none;
+    width: 100%;
+  }
+
+  header {
+    display: none;
+    width: 100%;
+  }
+
+  footer ul .logo {
+    float: none;
+    width: 100%;
+  }
+
+  article {
+    flex-direction: column;
+  }
+
+  form {
+    float: none;
+    width: 100%;
+  }
+}
+body {
+  margin: 10px -20px -10px -10px;
+  padding: 10px 0px 10px 50px;
+  background-color: lightgray;
+  font-family: verdana;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: dodgerblue;
+  margin: 10px -300px 10px -400px;
+  padding-right: 90px;
+}
+nav li {
+  float: left;
+  margin: 40px;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 1px 1px slategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: slategray;
+}
+
+header {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+  text-shadow: 2.5px 2.5px blue;
+  color: black;
+}
+
+footer {
+  padding-right: 300px;
+  padding-left: 200px;
+}
+
+.logo {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: dimgray;
+  margin: 40px -300px 10px -300px;
+  padding: 20px 90px 20px 10px;
+}
+
+li img {
+  width: 50px;
+  height: 50px;
+}
+
+article {
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: flex-end;
+  display: flex;
+}
+
+.sousTitre {
+  text-align: left;
+  font-size: 1.5em;
+  text-shadow: 2.5px 2.5px slategray;
+  color: dodgerblue;
+}
+
+.paragraphe {
+  text-align: justify;
+  font-size: 1.25em;
+  text-shadow: 2px 2px blue;
+  color: slategray;
+  margin-right: 50px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+section {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+  padding: 10px;
+  background-size: cover;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid lightgray;
+  background-color: gainsboro;
+  box-shadow: 2px 2px;
+}
+
+form.form-example {
+  display: table;
+}
+
+li.form-contact {
+  display: table;
+  font-size: 1.2em;
+  text-shadow: 1px 1px blue;
+  color: slategray;
+}
+
+label, input {
+  display: table;
+  font-size: 1.5em;
+  text-shadow: 1px 1px blue;
+  color: slategray;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+#commentaire {
+  width: 500px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
